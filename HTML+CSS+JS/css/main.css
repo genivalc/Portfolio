@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    font-family: 'Open sans', sans-serif;
 }
 
 @media screen and (min-width: 320px){
@@ -42,6 +47,36 @@
 
     .jl-menu{
         display: none;
+    }
+
+    .jl-btn-contact{
+        width: 45px;
+        height: 45px;
+        display: block;
+        background-color: #2CCB69;
+        background-image: url('../images/icon-contact-close.svg') ;
+        background-repeat: no-repeat;
+        position: fixed;
+        bottom: 45px;
+        right: 45px;
+        border-radius: 50%;
+        z-index: 200;
+    }
+
+    .jl-contact-info{
+        width: 245px;
+        height: 165px;
+        padding: 25px;
+        position: fixed;
+        bottom: 115px;
+        right: 65px;
+        z-index: 200;
+    }
+
+    .jl-social-links{
+        width: 100%;
+        height: 45px;
+        display: block;
     }
 }
 
@@ -109,4 +144,41 @@
 
 @media screen and (min-width: 1600px){
     
+}
+
+.jl-title {
+    font-family: 'Abril Fatface', serif;
+    font-weight: normal;
+}
+
+.jl-text-green{
+    color: #2CCB69;
+}
+
+.jl-text-dark{
+    color: #4D4C4C;
+}
+
+.jl-text-light {
+    color: #bcbcbc;
+}
+
+.jl-text-black {
+    color: #000;
+}
+
+.jl-bg-green{
+    background-color: #2CCB69;
+}
+
+.jl-bg-dark{
+    background-color: #4D4C4C;
+}
+
+.jl-bg-light {
+    background-color: #bcbcbc;
+}
+
+.jl-bg-black {
+    background-color: #000;
 }
